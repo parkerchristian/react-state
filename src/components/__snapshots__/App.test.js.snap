@@ -1,7 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App Test renders App 1`] = `
-<ColorPicker
-  selectedColorButton={[Function]}
-/>
+<Fragment>
+  <ColorPicker
+    selectedColorButton={[Function]}
+  />
+  <ColorDisplay
+    color=""
+  />
+</Fragment>
 `;
