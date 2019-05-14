@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
+import ColorPicker from './ColorPicker';
 
-export default function App() {
-  return (
-    <>
-    </>
-  );
+export default class App extends PureComponent {
+  state = {
+    color: ''
+  }
+  selectedColor = color => {
+    this.setState({ color });
+  }
+  render() {
+    return (
+      <ColorPicker selectedColorButton={this.selectedColor} />
+    );
+  }
 }
