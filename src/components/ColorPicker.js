@@ -8,7 +8,7 @@ export default class ColorPicker extends PureComponent {
 
   colorClicked = color => {
     this.setState({ color });
-    console.log(`click ${color}`);
+    console.log(`${color}`);
   }
   
   render() {
