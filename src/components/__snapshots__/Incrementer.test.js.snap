@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Incrementer Tests Renders Incrementer 1`] = `
+<section>
+  <p>
+    Count: 
+    0
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Count!
+  </button>
+</section>
+`;
