@@ -15,5 +15,3 @@ export default function ColorPicker({ selectedColorButton }) {
 ColorPicker.propTypes = {
   selectedColorButton: PropTypes.func.isRequired
 };
-
-// export default ColorPicker;
