@@ -1,0 +1,25 @@
+.ColorPicker {
+  button {
+    border: solid black;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    color: white;
+  }
+  .red {
+    background: red;
+  }
+  .yellow {
+    background: yellow;
+    color: black;
+  }
+  .blue {
+    background: blue;
+  }
+  div {
+    height: 10em;
+    width: 10em;
+  }
+  .black {
+    background: black;
+  }
+}
